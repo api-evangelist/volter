@@ -1,0 +1,22 @@
+# Volter
+
+> Volter (Get Volter Ltd) is a London-based energy platform that connects UK businesses with renewable generators to procure cheaper, greener electricity, and helps commercial real estate owners and generators deploy, optimize, and monetize rooftop solar and other onsite renewable assets. Backed by Transition and Seedcamp ($3.2M pre-seed, 2024). Volter does not currently publish a public API or developer documentation.
+
+## Company
+
+- [Website](https://getvolter.com/): Marketing site for the Volter energy platform
+- [Products](https://getvolter.com/products): Renewable energy matching, solar optimization, energy management platform, flexible asset control, and battery storage
+- [Generators](https://getvolter.com/generators): Market access and revenue optimization for renewable power generators
+- [Mission](https://getvolter.com/mission): Company mission
+- [FAQs](https://getvolter.com/faqs): Frequently asked questions
+- [Contact](https://getvolter.com/contact): Contact and personalised quote requests
+- [App login](https://app.getvolter.com/): Customer platform sign-in (authenticated; no public API)
+
+## Policies
+
+- [Privacy Policy](https://volter-marketing-site.s3.eu-west-2.amazonaws.com/get_volter_ltd_privacy_policy.pdf): Get Volter Ltd privacy policy (PDF)
+- [Complaints Policy](https://volter-marketing-site.s3.eu-west-2.amazonaws.com/get_volter_ltd_complaints_policy.pdf): Get Volter Ltd complaints policy (PDF)
+
+## API Evangelist Profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/volter/refs/heads/main/apis.yml): Machine-readable profile of Volter in the API Evangelist network

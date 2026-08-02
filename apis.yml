@@ -1,7 +1,25 @@
 aid: volter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/volter.png
 name: Volter
-description: Volter is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Volter (Get Volter Ltd) is a London-based energy platform that connects
+  UK businesses with renewable generators to procure cheaper, greener electricity,
+  and helps commercial real estate owners and generators deploy, optimize, and monetize
+  rooftop solar and other onsite renewable assets. The platform spans renewable energy
+  matching, solar optimization, and a forthcoming energy management suite with analytics,
+  anomaly detection, flexible asset control, and battery storage. Backed by Transition
+  and Seedcamp with a $3.2M pre-seed round in 2024. Volter does not currently publish
+  a public API or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/volter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy
+- Renewable Energy
+- Solar
+- Energy Management
+- Real Estate
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/volter-domain-security.yml
 - type: Website
-  url: http://getvolter.com
+  url: https://getvolter.com
+- type: WellKnown
+  url: well-known/volter-well-known.yml
+- type: LLMsTxt
+  url: llms/volter-llms.txt
+- type: PrivacyPolicy
+  url: https://volter-marketing-site.s3.eu-west-2.amazonaws.com/get_volter_ltd_privacy_policy.pdf
+- type: Support
+  url: https://getvolter.com/contact
+- type: Login
+  url: https://app.getvolter.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
